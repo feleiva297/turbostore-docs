@@ -9,22 +9,22 @@
       
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../Seguridad/">
       
       
-        <link rel="next" href="../Documentacio%CC%81n%20general/Buenas%20pra%CC%81cticas%20de%20desarrollo/">
+        <link rel="next" href="BFF/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
     
     
       
-        <title>Manual de Usuario - Turbostore Docs</title>
+        <title>Arquitectura de Aplicación - Turbostore Docs</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4af4bdda.min.css">
       
       
 
@@ -43,7 +43,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#manual-de-usuario" class="md-skip">
+        <a href="#arquitectura-de-aplicacion" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +78,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Turbostore Docs" class="md-header__button md-logo" aria-label="Turbostore Docs" data-md-component="logo">
+    <a href="../.." title="Turbostore Docs" class="md-header__button md-logo" aria-label="Turbostore Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Manual de Usuario
+              Arquitectura de Aplicación
             
           </span>
         </div>
@@ -176,7 +176,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Turbostore Docs" class="md-nav__button md-logo" aria-label="Turbostore Docs" data-md-component="logo">
+    <a href="../.." title="Turbostore Docs" class="md-nav__button md-logo" aria-label="Turbostore Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -194,7 +194,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -213,32 +213,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Manual de Usuario
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../Manual%20de%20Usuario/" class="md-nav__link">
         
   
   
@@ -249,77 +227,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#guia-de-inicio-rapido" class="md-nav__link">
-    <span class="md-ellipsis">
-      Guía de Inicio Rápido
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Guía de Inicio Rápido">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#primeros-pasos" class="md-nav__link">
-    <span class="md-ellipsis">
-      Primeros Pasos
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#funcionalidades-principales" class="md-nav__link">
-    <span class="md-ellipsis">
-      Funcionalidades Principales
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#faqs" class="md-nav__link">
-    <span class="md-ellipsis">
-      FAQs
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#resolucion-de-problemas" class="md-nav__link">
-    <span class="md-ellipsis">
-      Resolución de Problemas
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -328,18 +235,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -355,7 +264,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Documentación general
@@ -369,7 +278,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Documentacio%CC%81n%20general/Buenas%20pra%CC%81cticas%20de%20desarrollo/" class="md-nav__link">
+      <a href="../Buenas%20pra%CC%81cticas%20de%20desarrollo/" class="md-nav__link">
         
   
   
@@ -392,7 +301,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Documentacio%CC%81n%20general/Control%20de%20Versiones%20%28GitFlow%29/" class="md-nav__link">
+      <a href="../Control%20de%20Versiones%20%28GitFlow%29/" class="md-nav__link">
         
   
   
@@ -415,7 +324,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Documentacio%CC%81n%20general/Despliegue%20%28CI%20CD%29/" class="md-nav__link">
+      <a href="../Despliegue%20%28CI%20CD%29/" class="md-nav__link">
         
   
   
@@ -438,7 +347,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Documentacio%CC%81n%20general/Documentacio%CC%81n%20Te%CC%81cnica/" class="md-nav__link">
+      <a href="../Documentacio%CC%81n%20Te%CC%81cnica/" class="md-nav__link">
         
   
   
@@ -461,7 +370,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Documentacio%CC%81n%20general/Gui%CC%81as%20de%20Desarrollo/" class="md-nav__link">
+      <a href="../Gui%CC%81as%20de%20Desarrollo/" class="md-nav__link">
         
   
   
@@ -484,7 +393,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Documentacio%CC%81n%20general/Seguridad/" class="md-nav__link">
+      <a href="../Seguridad/" class="md-nav__link">
         
   
   
@@ -504,18 +413,20 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7" checked>
         
           
           <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="0">
@@ -531,7 +442,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_7">
             <span class="md-nav__icon md-icon"></span>
             Arquitectura de Aplicación
@@ -542,10 +453,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../Documentacio%CC%81n%20general/Arquitectura%20de%20Aplicacio%CC%81n/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Arquitectura de Aplicación
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -556,6 +489,53 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-creator" class="md-nav__link">
+    <span class="md-ellipsis">
+      🛠️ 1. Creator
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎨 2. Template
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-infraestructura-backend" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧠 3. Infraestructura Backend
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -568,7 +548,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Documentacio%CC%81n%20general/Arquitectura%20de%20Aplicacio%CC%81n/BFF/" class="md-nav__link">
+      <a href="BFF/" class="md-nav__link">
         
   
   
@@ -591,7 +571,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Documentacio%CC%81n%20general/Arquitectura%20de%20Aplicacio%CC%81n/Creator/" class="md-nav__link">
+      <a href="Creator/" class="md-nav__link">
         
   
   
@@ -614,7 +594,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Documentacio%CC%81n%20general/Arquitectura%20de%20Aplicacio%CC%81n/Template/" class="md-nav__link">
+      <a href="Template/" class="md-nav__link">
         
   
   
@@ -672,51 +652,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#guia-de-inicio-rapido" class="md-nav__link">
+  <a href="#1-creator" class="md-nav__link">
     <span class="md-ellipsis">
-      Guía de Inicio Rápido
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Guía de Inicio Rápido">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#primeros-pasos" class="md-nav__link">
-    <span class="md-ellipsis">
-      Primeros Pasos
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#funcionalidades-principales" class="md-nav__link">
-    <span class="md-ellipsis">
-      Funcionalidades Principales
+      🛠️ 1. Creator
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#faqs" class="md-nav__link">
+  <a href="#2-template" class="md-nav__link">
     <span class="md-ellipsis">
-      FAQs
+      🎨 2. Template
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#resolucion-de-problemas" class="md-nav__link">
+  <a href="#3-infraestructura-backend" class="md-nav__link">
     <span class="md-ellipsis">
-      Resolución de Problemas
+      🧠 3. Infraestructura Backend
     </span>
   </a>
   
@@ -738,110 +694,60 @@
 
 
 
-<h1 id="manual-de-usuario">Manual de Usuario</h1>
-<h2 id="guia-de-inicio-rapido">Guía de Inicio Rápido</h2>
-<p>Bienvenido a MultiTienda. Esta guía te ayudará a comenzar rápidamente con nuestra plataforma.</p>
-<h3 id="primeros-pasos">Primeros Pasos</h3>
+<h1 id="arquitectura-de-aplicacion">Arquitectura de Aplicación</h1>
+<h3 id="1-creator">🛠️ 1. Creator</h3>
+<p><strong>🎯 Propósito:</strong></p>
+<p>Es el panel de gestión desde donde los usuarios crean y configuran su tienda. Actúa como una interfaz amigable para construir una tienda sin conocimientos técnicos.</p>
+<p><strong>🧩 Funcionalidades:</strong></p>
 <ul>
-<li>Registro y acceso al sistema</li>
-<li>Configuración inicial de tu perfil</li>
-<li>Tour por las funciones principales</li>
-<li>Personalización de preferencias</li>
+<li>Registro / inicio / cierre de sesión</li>
+<li>Creación y personalización de tienda (colores, templates, logo, etc.)</li>
+<li>Gestión de productos y categorías</li>
+<li>Configuración de métodos de pago y envío</li>
+<li>Activación / desactivación de tienda</li>
+<li>Vista previa de la tienda basada en templates</li>
 </ul>
-<h2 id="funcionalidades-principales">Funcionalidades Principales</h2>
+<p><strong>📎 Acceso:</strong></p>
+<p>→ <em>[Ir a la página del Creator]</em></p>
+<hr />
+<h3 id="2-template">🎨 2. Template</h3>
+<p><strong>🎯 Propósito:</strong></p>
+<p>Representa la tienda visible para los compradores. Es una app frontend completamente dinámica y configurable, que consume la configuración establecida en el Creator.</p>
+<p><strong>🧩 Funcionalidades:</strong></p>
 <ul>
-<li>Gestión de Catálogo<ul>
-<li>Búsqueda de productos</li>
-<li>Filtros y categorización</li>
-<li>Gestión de inventario</li>
-<li>Actualización de precios</li>
+<li>Renderizado de tienda según configuración del Creator</li>
+<li>Diseño modular con componentes reutilizables</li>
+<li>Sistema de temas (tipografía, colores, estilos)</li>
+<li>Ruteo, Redux, servicios HTTP, manejo de estados y carga</li>
+<li>Páginas predefinidas: Home, Producto, Categoría, Contacto, etc.</li>
+<li>Componentes reutilizables: Navbar, Cards, Botones, Loaders (Skeletons), etc.</li>
 </ul>
-</li>
-<li>Proceso de Venta<ul>
-<li>Crear nueva venta</li>
-<li>Aplicar descuentos</li>
-<li>Métodos de pago</li>
-<li>Emisión de comprobantes</li>
-</ul>
-</li>
-<li>Gestión de Clientes<ul>
-<li>Registro de clientes</li>
-<li>Historial de compras</li>
-<li>Programas de fidelización</li>
-</ul>
-</li>
-</ul>
-<h2 id="faqs">FAQs</h2>
+<p><strong>📎 Acceso:</strong></p>
+<p>→ <em>[Ir a la página del Template]</em></p>
+<hr />
+<h3 id="3-infraestructura-backend">🧠 3. Infraestructura Backend</h3>
+<p><strong>🎯 Propósito:</strong></p>
+<p>Proporciona los servicios y la base de datos para toda la plataforma. Es el motor que gestiona la lógica, persistencia y autenticación de TurboStore.</p>
+<p><strong>🧩 Tecnologías:</strong></p>
 <ul>
-<li>Preguntas Frecuentes sobre Ventas<ul>
-<li>¿Cómo anular una venta?</li>
-<li>¿Cómo aplicar descuentos especiales?</li>
-<li>¿Cómo generar reportes de ventas?</li>
+<li>NestJS como framework base</li>
+<li>Prisma ORM</li>
+<li>PostgreSQL como base de datos</li>
+<li>Redis para cacheo de datos y sesiones</li>
+<li>JWT para autenticación y renovación de sesión</li>
 </ul>
-</li>
-<li>Preguntas Frecuentes sobre Inventario<ul>
-<li>¿Cómo realizar un conteo de inventario?</li>
-<li>¿Cómo gestionar productos agotados?</li>
-<li>¿Cómo configurar alertas de stock?</li>
-</ul>
-</li>
-</ul>
-<h2 id="resolucion-de-problemas">Resolución de Problemas</h2>
+<p><strong>🧩 Avances:</strong></p>
 <ul>
-<li>Problemas Comunes<ul>
-<li>Error en proceso de venta</li>
-<li>Problemas de impresión</li>
-<li>Errores de sincronización</li>
-<li>Problemas de conexión</li>
+<li>Investigación y testing de stack</li>
+<li>Modelo entidad-relación (DER)</li>
+<li>Desarrollo de endpoints de autenticación</li>
+<li>APIs para tienda, productos, configuración, etc.</li>
 </ul>
-</li>
-</ul>
-<h1 id="manual-de-administrador">Manual de Administrador</h1>
-<h2 id="panel-de-administracion">Panel de Administración</h2>
-<p>El panel de administración proporciona acceso a todas las funciones avanzadas del sistema.</p>
-<ul>
-<li>Funciones Principales<ul>
-<li>Dashboard general</li>
-<li>Reportes en tiempo real</li>
-<li>Configuración del sistema</li>
-<li>Herramientas de análisis</li>
-</ul>
-</li>
-</ul>
-<h2 id="gestion-de-usuarios">Gestión de Usuarios</h2>
-<ul>
-<li>Administración de Cuentas<ul>
-<li>Crear nuevos usuarios</li>
-<li>Asignar roles y permisos</li>
-<li>Gestionar accesos</li>
-<li>Auditoría de actividades</li>
-</ul>
-</li>
-</ul>
-<h2 id="configuracion-del-sistema">Configuración del Sistema</h2>
-<ul>
-<li>Parámetros Generales<ul>
-<li>Configuración de la tienda</li>
-<li>Personalización de interfaces</li>
-<li>Configuración de impuestos</li>
-<li>Integración con servicios externos</li>
-</ul>
-</li>
-</ul>
-<h2 id="monitoreo-y-logs">Monitoreo y Logs</h2>
-<ul>
-<li>Herramientas de Monitoreo<ul>
-<li>Registro de actividades</li>
-<li>Alertas del sistema</li>
-<li>Métricas de rendimiento</li>
-<li>Respaldos y recuperación</li>
-</ul>
-</li>
-</ul>
-<aside>
-⚠️ Recuerda mantener seguras tus credenciales de administrador y realizar cambios en el sistema con precaución.
-
-</aside>
+<p><strong>📎 Acceso:</strong></p>
+<p>→ <em>[Ir a la página del Backend]</em></p>
+<p><a href="Arquitectura%20de%20Aplicacio%CC%81n%201d60ec4380bd8048aa3cfd3aa71422b9/BFF%201d60ec4380bd80f28beaeac4903e79f8.md">BFF</a></p>
+<p><a href="Arquitectura%20de%20Aplicacio%CC%81n%201d60ec4380bd8048aa3cfd3aa71422b9/Creator%201d60ec4380bd8012a39df9ddf6c6f9e4.md">Creator</a></p>
+<p><a href="Arquitectura%20de%20Aplicacio%CC%81n%201d60ec4380bd8048aa3cfd3aa71422b9/Template%201d60ec4380bd809fb46fc01e7d93e908.md">Template</a></p>
 
 
 
@@ -890,10 +796,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
   </body>

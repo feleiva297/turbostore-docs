@@ -9,22 +9,22 @@
       
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../Control%20de%20Versiones%20%28GitFlow%29/">
       
       
-        <link rel="next" href="../Documentacio%CC%81n%20general/Buenas%20pra%CC%81cticas%20de%20desarrollo/">
+        <link rel="next" href="../Documentacio%CC%81n%20Te%CC%81cnica/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
     
     
       
-        <title>Manual de Usuario - Turbostore Docs</title>
+        <title>Despliegue (CI/CD) - Turbostore Docs</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4af4bdda.min.css">
       
       
 
@@ -43,7 +43,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#manual-de-usuario" class="md-skip">
+        <a href="#despliegue-cicd" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +78,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Turbostore Docs" class="md-header__button md-logo" aria-label="Turbostore Docs" data-md-component="logo">
+    <a href="../.." title="Turbostore Docs" class="md-header__button md-logo" aria-label="Turbostore Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Manual de Usuario
+              Despliegue (CI/CD)
             
           </span>
         </div>
@@ -176,7 +176,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Turbostore Docs" class="md-nav__button md-logo" aria-label="Turbostore Docs" data-md-component="logo">
+    <a href="../.." title="Turbostore Docs" class="md-nav__button md-logo" aria-label="Turbostore Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -194,7 +194,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -213,32 +213,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Manual de Usuario
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../Manual%20de%20Usuario/" class="md-nav__link">
         
   
   
@@ -249,77 +227,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#guia-de-inicio-rapido" class="md-nav__link">
-    <span class="md-ellipsis">
-      Guía de Inicio Rápido
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Guía de Inicio Rápido">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#primeros-pasos" class="md-nav__link">
-    <span class="md-ellipsis">
-      Primeros Pasos
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#funcionalidades-principales" class="md-nav__link">
-    <span class="md-ellipsis">
-      Funcionalidades Principales
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#faqs" class="md-nav__link">
-    <span class="md-ellipsis">
-      FAQs
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#resolucion-de-problemas" class="md-nav__link">
-    <span class="md-ellipsis">
-      Resolución de Problemas
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -328,18 +235,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -355,7 +264,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Documentación general
@@ -369,7 +278,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Documentacio%CC%81n%20general/Buenas%20pra%CC%81cticas%20de%20desarrollo/" class="md-nav__link">
+      <a href="../Buenas%20pra%CC%81cticas%20de%20desarrollo/" class="md-nav__link">
         
   
   
@@ -392,7 +301,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Documentacio%CC%81n%20general/Control%20de%20Versiones%20%28GitFlow%29/" class="md-nav__link">
+      <a href="../Control%20de%20Versiones%20%28GitFlow%29/" class="md-nav__link">
         
   
   
@@ -412,10 +321,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../Documentacio%CC%81n%20general/Despliegue%20%28CI%20CD%29/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Despliegue (CI/CD)
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -426,6 +357,62 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-environments-dev-stage-prod" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Environments (Dev, Stage, Prod)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-cicd-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. CI/CD Pipeline
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-procedimientos-de-backup" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Procedimientos de Backup
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-monitoreo-de-produccion" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Monitoreo de Producción
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -438,7 +425,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Documentacio%CC%81n%20general/Documentacio%CC%81n%20Te%CC%81cnica/" class="md-nav__link">
+      <a href="../Documentacio%CC%81n%20Te%CC%81cnica/" class="md-nav__link">
         
   
   
@@ -461,7 +448,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Documentacio%CC%81n%20general/Gui%CC%81as%20de%20Desarrollo/" class="md-nav__link">
+      <a href="../Gui%CC%81as%20de%20Desarrollo/" class="md-nav__link">
         
   
   
@@ -484,7 +471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Documentacio%CC%81n%20general/Seguridad/" class="md-nav__link">
+      <a href="../Seguridad/" class="md-nav__link">
         
   
   
@@ -545,7 +532,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Documentacio%CC%81n%20general/Arquitectura%20de%20Aplicacio%CC%81n/" class="md-nav__link">
+      <a href="../Arquitectura%20de%20Aplicacio%CC%81n/" class="md-nav__link">
         
   
   
@@ -568,7 +555,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Documentacio%CC%81n%20general/Arquitectura%20de%20Aplicacio%CC%81n/BFF/" class="md-nav__link">
+      <a href="../Arquitectura%20de%20Aplicacio%CC%81n/BFF/" class="md-nav__link">
         
   
   
@@ -591,7 +578,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Documentacio%CC%81n%20general/Arquitectura%20de%20Aplicacio%CC%81n/Creator/" class="md-nav__link">
+      <a href="../Arquitectura%20de%20Aplicacio%CC%81n/Creator/" class="md-nav__link">
         
   
   
@@ -614,7 +601,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Documentacio%CC%81n%20general/Arquitectura%20de%20Aplicacio%CC%81n/Template/" class="md-nav__link">
+      <a href="../Arquitectura%20de%20Aplicacio%CC%81n/Template/" class="md-nav__link">
         
   
   
@@ -672,51 +659,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#guia-de-inicio-rapido" class="md-nav__link">
+  <a href="#1-environments-dev-stage-prod" class="md-nav__link">
     <span class="md-ellipsis">
-      Guía de Inicio Rápido
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Guía de Inicio Rápido">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#primeros-pasos" class="md-nav__link">
-    <span class="md-ellipsis">
-      Primeros Pasos
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#funcionalidades-principales" class="md-nav__link">
-    <span class="md-ellipsis">
-      Funcionalidades Principales
+      1. Environments (Dev, Stage, Prod)
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#faqs" class="md-nav__link">
+  <a href="#2-cicd-pipeline" class="md-nav__link">
     <span class="md-ellipsis">
-      FAQs
+      2. CI/CD Pipeline
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#resolucion-de-problemas" class="md-nav__link">
+  <a href="#3-procedimientos-de-backup" class="md-nav__link">
     <span class="md-ellipsis">
-      Resolución de Problemas
+      3. Procedimientos de Backup
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-monitoreo-de-produccion" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Monitoreo de Producción
     </span>
   </a>
   
@@ -738,108 +710,91 @@
 
 
 
-<h1 id="manual-de-usuario">Manual de Usuario</h1>
-<h2 id="guia-de-inicio-rapido">Guía de Inicio Rápido</h2>
-<p>Bienvenido a MultiTienda. Esta guía te ayudará a comenzar rápidamente con nuestra plataforma.</p>
-<h3 id="primeros-pasos">Primeros Pasos</h3>
+<h1 id="despliegue-cicd">Despliegue (CI/CD)</h1>
+<h2 id="1-environments-dev-stage-prod">1. Environments (Dev, Stage, Prod)</h2>
+<p>El proyecto MultiTienda utiliza tres ambientes principales para garantizar la calidad y estabilidad del sistema:</p>
 <ul>
-<li>Registro y acceso al sistema</li>
-<li>Configuración inicial de tu perfil</li>
-<li>Tour por las funciones principales</li>
-<li>Personalización de preferencias</li>
+<li><strong>Desarrollo (Dev)</strong><ul>
+<li>Ambiente local para desarrolladores</li>
+<li>Configuración mediante docker-compose</li>
+<li>Variables de entorno específicas para desarrollo</li>
 </ul>
-<h2 id="funcionalidades-principales">Funcionalidades Principales</h2>
+</li>
+<li><strong>Staging</strong><ul>
+<li>Ambiente de pre-producción</li>
+<li>Réplica exacta del ambiente productivo</li>
+<li>Utilizado para QA y pruebas finales</li>
+</ul>
+</li>
+<li><strong>Producción (Prod)</strong><ul>
+<li>Ambiente final para usuarios</li>
+<li>Infraestructura redundante y escalable</li>
+<li>Monitoreo constante</li>
+</ul>
+</li>
+</ul>
+<h2 id="2-cicd-pipeline">2. CI/CD Pipeline</h2>
+<p>Pipeline automatizado implementado en GitLab CI/CD con las siguientes etapas:</p>
 <ul>
-<li>Gestión de Catálogo<ul>
-<li>Búsqueda de productos</li>
-<li>Filtros y categorización</li>
-<li>Gestión de inventario</li>
-<li>Actualización de precios</li>
+<li><strong>Build</strong><ul>
+<li>Compilación del código fuente</li>
+<li>Generación de artefactos</li>
+<li>Escaneo de seguridad del código</li>
 </ul>
 </li>
-<li>Proceso de Venta<ul>
-<li>Crear nueva venta</li>
-<li>Aplicar descuentos</li>
-<li>Métodos de pago</li>
-<li>Emisión de comprobantes</li>
+<li><strong>Test</strong><ul>
+<li>Ejecución de pruebas unitarias</li>
+<li>Pruebas de integración</li>
+<li>Análisis de cobertura</li>
 </ul>
 </li>
-<li>Gestión de Clientes<ul>
-<li>Registro de clientes</li>
-<li>Historial de compras</li>
-<li>Programas de fidelización</li>
+<li><strong>Deploy</strong><ul>
+<li>Despliegue automático a staging</li>
+<li>Despliegue manual a producción</li>
+<li>Rollback automatizado en caso de fallo</li>
 </ul>
 </li>
 </ul>
-<h2 id="faqs">FAQs</h2>
+<h2 id="3-procedimientos-de-backup">3. Procedimientos de Backup</h2>
+<p>Estrategia integral de respaldo de datos:</p>
 <ul>
-<li>Preguntas Frecuentes sobre Ventas<ul>
-<li>¿Cómo anular una venta?</li>
-<li>¿Cómo aplicar descuentos especiales?</li>
-<li>¿Cómo generar reportes de ventas?</li>
+<li><strong>Backup de Base de Datos</strong><ul>
+<li>Respaldos incrementales diarios</li>
+<li>Backup completo semanal</li>
+<li>Retención de 30 días</li>
 </ul>
 </li>
-<li>Preguntas Frecuentes sobre Inventario<ul>
-<li>¿Cómo realizar un conteo de inventario?</li>
-<li>¿Cómo gestionar productos agotados?</li>
-<li>¿Cómo configurar alertas de stock?</li>
+<li><strong>Backup de Archivos</strong><ul>
+<li>Respaldo diario de archivos estáticos</li>
+<li>Sincronización con almacenamiento redundante</li>
+<li>Cifrado de datos sensibles</li>
 </ul>
 </li>
 </ul>
-<h2 id="resolucion-de-problemas">Resolución de Problemas</h2>
+<h2 id="4-monitoreo-de-produccion">4. Monitoreo de Producción</h2>
+<p>Sistema de monitoreo implementado con las siguientes herramientas:</p>
 <ul>
-<li>Problemas Comunes<ul>
-<li>Error en proceso de venta</li>
-<li>Problemas de impresión</li>
-<li>Errores de sincronización</li>
-<li>Problemas de conexión</li>
+<li><strong>Métricas de Aplicación</strong><ul>
+<li>Prometheus para recolección de métricas</li>
+<li>Grafana para visualización</li>
+<li>Alertas automáticas configuradas</li>
 </ul>
 </li>
-</ul>
-<h1 id="manual-de-administrador">Manual de Administrador</h1>
-<h2 id="panel-de-administracion">Panel de Administración</h2>
-<p>El panel de administración proporciona acceso a todas las funciones avanzadas del sistema.</p>
-<ul>
-<li>Funciones Principales<ul>
-<li>Dashboard general</li>
-<li>Reportes en tiempo real</li>
-<li>Configuración del sistema</li>
-<li>Herramientas de análisis</li>
+<li><strong>Logs</strong><ul>
+<li>ELK Stack para gestión centralizada</li>
+<li>Retención de logs por 90 días</li>
+<li>Búsqueda y análisis en tiempo real</li>
 </ul>
 </li>
-</ul>
-<h2 id="gestion-de-usuarios">Gestión de Usuarios</h2>
-<ul>
-<li>Administración de Cuentas<ul>
-<li>Crear nuevos usuarios</li>
-<li>Asignar roles y permisos</li>
-<li>Gestionar accesos</li>
-<li>Auditoría de actividades</li>
-</ul>
-</li>
-</ul>
-<h2 id="configuracion-del-sistema">Configuración del Sistema</h2>
-<ul>
-<li>Parámetros Generales<ul>
-<li>Configuración de la tienda</li>
-<li>Personalización de interfaces</li>
-<li>Configuración de impuestos</li>
-<li>Integración con servicios externos</li>
-</ul>
-</li>
-</ul>
-<h2 id="monitoreo-y-logs">Monitoreo y Logs</h2>
-<ul>
-<li>Herramientas de Monitoreo<ul>
-<li>Registro de actividades</li>
-<li>Alertas del sistema</li>
-<li>Métricas de rendimiento</li>
-<li>Respaldos y recuperación</li>
+<li><strong>Monitoreo de Rendimiento</strong><ul>
+<li>New Relic para APM</li>
+<li>Monitoreo de tiempos de respuesta</li>
+<li>Análisis de cuellos de botella</li>
 </ul>
 </li>
 </ul>
 <aside>
-⚠️ Recuerda mantener seguras tus credenciales de administrador y realizar cambios en el sistema con precaución.
+🔄 Esta documentación debe actualizarse cada vez que se realicen cambios significativos en la infraestructura o procesos de despliegue.
 
 </aside>
 
@@ -890,10 +845,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
   </body>
