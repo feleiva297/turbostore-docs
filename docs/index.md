@@ -1,6 +1,4 @@
-# Turbostore | Taller lll - IFTS16
-
-# Descripción del proyecto
+# Inicio
 
 ## Sobre el Proyecto
 
