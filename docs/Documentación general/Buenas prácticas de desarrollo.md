@@ -2,43 +2,43 @@
 
 ## 📌 Índice
 
-1. [🔤 Convenciones de nombramiento](https://www.notion.so/Buenas-pr-cticas-de-desarrollo-1ce0ec4380bd8061a323f55239f43bc3?pvs=21)
+1. [🔤 Convenciones de nombramiento](Buenas%20pra%CC%81cticas%20de%20desarrollo%201ce0ec4380bd8061a323f55239f43bc3.md)
     
     Guía para nombrar variables, funciones, clases y archivos de forma consistente y clara en NestJS y React.
     
-2. [📂 Estructura del código](https://www.notion.so/Buenas-pr-cticas-de-desarrollo-1ce0ec4380bd8061a323f55239f43bc3?pvs=21)
+2. [📂 Estructura del código](Buenas%20pra%CC%81cticas%20de%20desarrollo%201ce0ec4380bd8061a323f55239f43bc3.md)
     
     Recomendaciones sobre cómo organizar carpetas y archivos para mantener un proyecto escalable y mantenible.
     
-3. [🧠 Principios de desarrollo](https://www.notion.so/Buenas-pr-cticas-de-desarrollo-1ce0ec4380bd8061a323f55239f43bc3?pvs=21)
+3. [🧠 Principios de desarrollo](Buenas%20pra%CC%81cticas%20de%20desarrollo%201ce0ec4380bd8061a323f55239f43bc3.md)
     
     Fundamentos como DRY, KISS, YAGNI y SOLID que ayudan a escribir código limpio, reutilizable y fácil de mantener.
     
-4. [⚛️ Buenas prácticas en React](https://www.notion.so/Buenas-pr-cticas-de-desarrollo-1ce0ec4380bd8061a323f55239f43bc3?pvs=21)
+4. [⚛️ Buenas prácticas en React](Buenas%20pra%CC%81cticas%20de%20desarrollo%201ce0ec4380bd8061a323f55239f43bc3.md)
     
     Reglas específicas para componentes, hooks, manejo de estado y estructura en proyectos con React.
     
-5. [🦮 Buenas prácticas en NestJS](https://www.notion.so/Buenas-pr-cticas-de-desarrollo-1ce0ec4380bd8061a323f55239f43bc3?pvs=21)
+5. [🦮 Buenas prácticas en NestJS](Buenas%20pra%CC%81cticas%20de%20desarrollo%201ce0ec4380bd8061a323f55239f43bc3.md)
     
     Estándares recomendados para servicios, controladores, DTOs y organización de módulos en NestJS.
     
-6. [🌿 Control de versiones (Git)](https://www.notion.so/Buenas-pr-cticas-de-desarrollo-1ce0ec4380bd8061a323f55239f43bc3?pvs=21)
+6. [🌿 Control de versiones (Git)](Buenas%20pra%CC%81cticas%20de%20desarrollo%201ce0ec4380bd8061a323f55239f43bc3.md)
     
     Convenciones para mensajes de commits, uso de ramas y manejo colaborativo del repositorio con Git.
     
-7. [🧩 Patrones comunes de diseño](https://www.notion.so/Buenas-pr-cticas-de-desarrollo-1ce0ec4380bd8061a323f55239f43bc3?pvs=21)
+7. [🧩 Patrones comunes de diseño](Buenas%20pra%CC%81cticas%20de%20desarrollo%201ce0ec4380bd8061a323f55239f43bc3.md)
     
     Patrones de arquitectura y diseño recomendados para proyectos modernos, como repositorio, factory o singleton.
     
-8. [📝 Documentación](https://www.notion.so/Buenas-pr-cticas-de-desarrollo-1ce0ec4380bd8061a323f55239f43bc3?pvs=21)
+8. [📝 Documentación](Buenas%20pra%CC%81cticas%20de%20desarrollo%201ce0ec4380bd8061a323f55239f43bc3.md)
     
     Cómo y cuándo documentar funciones, endpoints y componentes, incluyendo herramientas útiles.
     
-9. [🧪 Testing](https://www.notion.so/Buenas-pr-cticas-de-desarrollo-1ce0ec4380bd8061a323f55239f43bc3?pvs=21)
+9. [🧪 Testing](Buenas%20pra%CC%81cticas%20de%20desarrollo%201ce0ec4380bd8061a323f55239f43bc3.md)
     
     Buenas prácticas para pruebas unitarias, de integración y end-to-end tanto en el backend como en el frontend.
     
-10. [🔍 Revisión de código](https://www.notion.so/Buenas-pr-cticas-de-desarrollo-1ce0ec4380bd8061a323f55239f43bc3?pvs=21)
+10. [🔍 Revisión de código](Buenas%20pra%CC%81cticas%20de%20desarrollo%201ce0ec4380bd8061a323f55239f43bc3.md)
     
     Guía para realizar code reviews efectivos y constructivos, con foco en la calidad y consistencia del código.
     
